@@ -3,4 +3,4 @@ jobs:
   deploy-docker:
     runs-on: ubuntu-latest
     steps:
-      - run: ./Dockerfile
+      - run: Dockerfile
