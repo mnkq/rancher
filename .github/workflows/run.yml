@@ -1,3 +1,6 @@
 on: [push]
 jobs:
-run: ./Dockerfile
+  deploy-docker:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ./Dockerfile
